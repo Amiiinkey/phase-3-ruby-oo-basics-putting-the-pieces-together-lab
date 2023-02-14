@@ -1,3 +1,4 @@
+
 describe 'Book' do
   describe '.new' do
     it 'gets initialized with a title' do
@@ -5,7 +6,7 @@ describe 'Book' do
     end
   end
 
-  describe 'properties' do
+  describe 'properties' do 
     let(:book) { Book.new("And Then There Were None") }
 
     it 'has a title' do
